@@ -13,7 +13,10 @@ module.exports = {
   DIFY_CHATBOT_ENABLED: process.env.NEXT_PUBLIC_DIFY_CHATBOT_ENABLED || false,
   DIFY_CHATBOT_BASE_URL: process.env.NEXT_PUBLIC_DIFY_CHATBOT_BASE_URL || '',
   DIFY_CHATBOT_TOKEN: process.env.NEXT_PUBLIC_DIFY_CHATBOT_TOKEN || '',
-
+  //自加-deepseek
+  DEEPSEEK_ENABLED: process.env.NEXT_PUBLIC_DEEPSEEK_ENABLED || true, // 是否启用 DeepSeek
+  DEEPSEEK_API_KEY: process.env.NEXT_PUBLIC_DEEPSEEK_API_KEY || '', // DeepSeek API 密钥
+  DEEPSEEK_BASE_URL: process.env.NEXT_PUBLIC_DEEPSEEK_BASE_URL || '' // DeepSeek API 基础 URL
   // 悬浮挂件
   WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
   WIDGET_PET_LINK:
