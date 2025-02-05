@@ -64,4 +64,8 @@ module.exports = {
   FACEBOOK_PAGE: process.env.NEXT_PUBLIC_FACEBOOK_PAGE || null, // Facebook Page 的連結 e.g https://www.facebook.com/tw.andys.pro
   FACEBOOK_PAGE_ID: process.env.NEXT_PUBLIC_FACEBOOK_PAGE_ID || '', // Facebook Page ID 來啟用 messenger 聊天功能
   FACEBOOK_APP_ID: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || '' // Facebook App ID 來啟用 messenger 聊天功能 获取: https://developers.facebook.com/
+
+  DEEPSEEK_ENABLED: process.env.NEXT_PUBLIC_DEEPSEEK_ENABLED || false, // 是否启用 DeepSeek
+  DEEPSEEK_API_KEY: process.env.NEXT_PUBLIC_DEEPSEEK_API_KEY || '', // DeepSeek API 密钥
+  DEEPSEEK_BASE_URL: process.env.NEXT_PUBLIC_DEEPSEEK_BASE_URL || '' // DeepSeek API 基础 URL
 }
