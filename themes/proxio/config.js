@@ -247,7 +247,7 @@ const CONFIG = {
     PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
     PROXIO_CTA_DESCRIPTION:
         '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
-    PROXIO_CTA_BUTTON: true, // 是否显示按钮
+    PROXIO_CTA_BUTTON: false, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
         '/about',
     PROXIO_CTA_BUTTON_TEXT: '联系我',
