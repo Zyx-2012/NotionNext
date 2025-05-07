@@ -193,37 +193,34 @@ const CONFIG = {
             name: '友情链接',
             menus: [
                 {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
-                },
-                {
-                    title: 'NotionNext',
-                    href: 'https://www.tangly1024.com'
+                    title: '？Ruibin_Ningh星尘客栈',
+                    href: 'https://www.ruibin-ningh.top'
                 }
             ]
-        },
-        {
-            name: '开发者',
-            menus: [
-                { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-                {
-                    title: '开发帮助',
-                    href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-                },
-                {
-                    title: '功能反馈',
-                    href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-                },
-                {
-                    title: '技术讨论',
-                    href: 'https://github.com/tangly1024/NotionNext/discussions'
-                },
-                {
-                    title: '关于作者',
-                    href: 'https://blog.tangly1024.com/about'
-                }
-            ]
-        }],
+        }
+        // {
+        //     name: '开发者',
+        //     menus: [
+        //         { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
+        //         {
+        //             title: '开发帮助',
+        //             href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
+        //         },
+        //         {
+        //             title: '功能反馈',
+        //             href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+        //         },
+        //         {
+        //             title: '技术讨论',
+        //             href: 'https://github.com/tangly1024/NotionNext/discussions'
+        //         },
+        //         {
+        //             title: '关于作者',
+        //             href: 'https://blog.tangly1024.com/about'
+        //         }
+        //     ]
+        // }
+        ],
 
     PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
@@ -242,7 +239,7 @@ const CONFIG = {
     PROXIO_404_BACK: '回到主页',
 
     // 页面底部的行动呼吁模块
-    PROXIO_CTA_ENABLE: true,
+    PROXIO_CTA_ENABLE: false,
     PROXIO_CTA_TITLE: '与我建立联系',
     PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
     PROXIO_CTA_DESCRIPTION:
