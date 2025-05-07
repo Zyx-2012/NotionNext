@@ -193,7 +193,7 @@ const CONFIG = {
             name: '友情链接',
             menus: [
                 {
-                    title: '？Ruibin_Ningh星尘客栈',
+                    title: 'Ruibin_Ningh星尘客栈',
                     href: 'https://www.ruibin-ningh.top'
                 }
             ]
