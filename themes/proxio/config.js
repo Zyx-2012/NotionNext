@@ -3,7 +3,7 @@
  */
 const CONFIG = {
     PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-    PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
+    PROXIO_WELCOME_TEXT: '欢迎来到我的2号博客，点击任意位置进入', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
@@ -64,7 +64,7 @@ const CONFIG = {
     PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
 
     // 首页生涯区块
-    PROXIO_CAREER_ENABLE: true, // 区块开关
+    PROXIO_CAREER_ENABLE: false, // 区块开关
     PROXIO_CAREER_TITLE: '生涯',
     PROXIO_CAREER_TEXT:
         '以下是我的职业生涯',
@@ -77,7 +77,7 @@ const CONFIG = {
     ],
 
     // 首页用户测评区块
-    PROXIO_TESTIMONIALS_ENABLE: true, // 测评区块开关
+    PROXIO_TESTIMONIALS_ENABLE: false, // 测评区块开关
     PROXIO_TESTIMONIALS_TITLE: '用户反馈',
     PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
     PROXIO_TESTIMONIALS_TEXT_2:
@@ -145,7 +145,7 @@ const CONFIG = {
     ],
 
     //   FAQ 常见问题模块
-    PROXIO_FAQ_ENABLE: true, // 常见问题模块开关
+    PROXIO_FAQ_ENABLE: false, // 常见问题模块开关
     PROXIO_FAQ_TITLE: '常见问题解答',
     PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
     PROXIO_FAQ_TEXT_2: '我们收集了常见的用户疑问',
@@ -159,24 +159,24 @@ const CONFIG = {
     // 关于作者区块
     PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
     PROXIO_ABOUT_TITLE: '关于作者',
-    PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
+    PROXIO_ABOUT_TEXT_1: 'I am a student',
     PROXIO_ABOUT_TEXT_2:
         'With a background in architecture, I now apply my expertise to product design, blending aesthetics, functionality, and innovation. My goal is to create modern, user-focused designs that bring your vision to life.',
     PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
-    PROXIO_ABOUT_KEY_1: '经验年限',
-    PROXIO_ABOUT_VAL_1: '10年+',
-    PROXIO_ABOUT_KEY_2: '客户',
-    PROXIO_ABOUT_VAL_2: '1000+',
-    PROXIO_ABOUT_KEY_3: '交付项目',
-    PROXIO_ABOUT_VAL_3: '5000+',
-    PROXIO_ABOUT_KEY_4: '累积创作时长（小时）',
-    PROXIO_ABOUT_VAL_4: '10000+',
+    PROXIO_ABOUT_KEY_1: '代码学习范围',
+    PROXIO_ABOUT_VAL_1: 'python,c++,java,前端全套,……',
+    PROXIO_ABOUT_KEY_2: 'c++水平',
+    PROXIO_ABOUT_VAL_2: 'I don\'t know',
+    PROXIO_ABOUT_KEY_3: '爱好',
+    PROXIO_ABOUT_VAL_3: '写代码、打比赛等10+',
+    PROXIO_ABOUT_KEY_4: '主要游玩游戏',
+    PROXIO_ABOUT_VAL_4: 'mc',
 
     PROXIO_ABOUT_BUTTON_URL: '/about',
     PROXIO_ABOUT_BUTTON_TEXT: '关于我',
 
     // 横向滚动文字
-    PROXIO_BRANDS_ENABLE: true, // 滚动文字
+    PROXIO_BRANDS_ENABLE: false, // 滚动文字
     PROXIO_BRANDS: [
         'Web Design',
         'Logo Design',
